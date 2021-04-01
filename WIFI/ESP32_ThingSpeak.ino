@@ -29,4 +29,6 @@ if(isnan(t)){
 }
 ThingSpeak.writeField(myChannelNumber, 1, t, myWriteAPIKey);
 Serial.println(t);
+
+ // Testing
 }
